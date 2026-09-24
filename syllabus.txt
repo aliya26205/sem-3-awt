@@ -1,0 +1,49 @@
+PRACTICAL MODULE 
+PART – A 
+
+1.Create a page with Tailwind CSS product cards styled using max-w-sm, shadow-md,  rounded
+lg, and hover effects like hover:shadow-xl. Style the image with object cover, rounded-t-lg, h-48
+and text with font-bold, text-gray-700, and text-sm.
+
+2.Create a developer portfolio website using Tailwind CSS with a responsive navbar, a hero  section
+featuring display-4 text and a btn-primary button, and a projects section using  a grid (row and
+col-md-4) to display three card components. Include a contact form  with form-group fields for
+name, email, and message, and finish with a footer  featuring social media icons.
+
+3. Create a React application that includes a form with a textbox component, a  dropdown
+component, and a submit button component. Each form element should  be implemented as a
+separate, reusable component.
+
+4.Build a React application that includes a form to accept a first name and a last name  using Material
+UI components. Instead of a standard “Submit” button, implement a  “Greet Me” button that, when
+clicked, will display an alert with the message “Hello  [first name] [last name]!”.
+
+5.Build a simple React application that includes a Material UI button. When the  button is clicked,
+it should toggle the visibility of a Material UI Card component.
+
+
+
+PART – B 
+
+1.Develop a React application that dynamically displays the capital city of a selected  country.
+Implement the country selection dropdown as a separate, reusable  component. The main
+application component should integrate this dropdown  component and, upon selection of a
+country, display the corresponding capital city.
+
+2.Develop a react application and:
+i)Build your own Button component and render it three times. On user  click, it should alert which
+button was clicked. (React JS).
+ii)Use the useState React hook to track how many times a button is clicked,  and display the
+number
+
+3.Create a custom component for rendering each joke present in an array. Using the  map function,
+map through each object in the array. Use the custom component to  render each object.
+
+4.create a multi page React application with a navigation bar component and routes  using react
+router-dom.
+
+5.Create an HTTP server listening on port 1337, which sends Hello, World! to the  browser and
+using Express.
+
+6.Build a React app that fetches, adds, and deletes items from a mock backend server  using the
+fetch API. Items should be displayed, and changes should update both the  frontend and backend.
