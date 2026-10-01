@@ -45,3 +45,11 @@ o  Starting dev server...
 10:46:58 am [vite] (client) hmr update /src/components/Dropdown.jsx
 10:47:54 am [vite] (client) hmr update /src/App.jsx
 ^F^A
+
+PS C:\Aliya> npm install @mui/material @emotion/react @emotion/styled 
+
+added 84 packages in 11s
+
+14 packages are looking for funding
+  run `npm fund` for details
+PS C:\Aliya> 
