@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff0f5;
+  color: #5c2948;
+}
+
+/* Navigation Bar */
+nav {
+  background: #e75480;
+  color: white;
+  padding: 18px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(183, 58, 105, 0.2);
+}
+
+nav h2 {
+  margin: 0;
+  font-size: 25px;
+}
+
+/* Navigation Links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffe4ec;
+  text-decoration: underline;
+}
+
+/* Page Content */
+.content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 45px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(231, 84, 128, 0.12);
+  min-height: 220px;
+}
+
+/* Headings */
+.content h1 {
+  color: #d63384;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+.content p {
+  color: #795065;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 18px;
+    padding: 20px 12px;
+  }
+
+  nav a {
+    margin: 0 6px;
+    font-size: 14px;
+  }
+
+  .content {
+    margin: 25px 15px;
+    padding: 25px;
+  }
+
+  .content h1 {
+    font-size: 26px;
+  }
+}
