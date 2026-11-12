@@ -1,0 +1,111 @@
+# React CRUD Application – Practical Steps
+
+Aim: To build a React application that fetches, adds and deletes items using the Fetch API and JSON Server.
+
+### Step 1: Open VS Code
+
+1. Open Visual Studio Code.
+2. Open Terminal → New Terminal.
+
+### Step 2: Create React Project
+
+Run the following commands:
+
+```
+npm create vite@latest item-manager -- --template react
+cd item-manager
+npm install
+code .
+```
+
+### Step 3: Install JSON Server
+
+```
+npm install json-server@0.17.4
+```
+
+### Step 4: Create Database
+
+1. Right-click the main project folder.
+2. Select New File.
+3. Name it `db.json`.
+4. Add an `items` array containing three sample items (Laptop, Mobile, Headphones), each with an ID and name.
+5. Save the file.
+
+### Step 5: Configure Backend
+
+1. Open `package.json`.
+2. Add a new script named `server` inside the scripts section.
+3. Set its command to `json-server --watch db.json --port 5000`.
+4. Save the file.
+
+### Step 6: Create React Application
+
+1. Open the `src` folder.
+2. Open `App.jsx`.
+3. Remove the existing code.
+4. Write the React code to:
+   - Import `useState` and `useEffect`.
+   - Create state variables for items and input name.
+   - Use the Fetch API with GET to retrieve items.
+   - Use POST to add new items.
+   - Use DELETE to remove items.
+   - Display items using the `map()` method.
+   - Update the frontend using `setItems()`.
+5. Save the file.
+
+### Step 7: Apply CSS Styling
+
+1. Open `src/App.css`.
+2. Remove the existing CSS.
+3. Add pink-themed styling.
+4. Style the container, heading, input, Add button, item list and Delete button.
+5. Save the file.
+
+### Step 8: Start Backend Server
+
+Open the first terminal and run:
+
+```
+npm run server
+```
+
+Backend URL: `http://localhost:5000/items`
+
+Keep this terminal running.
+
+### Step 9: Start React Frontend
+
+Open a second terminal and run:
+
+```
+npm run dev
+```
+
+Open the URL displayed in the terminal, usually:
+
+`http://localhost:5173`
+
+### Step 10: Test the Application
+
+1. Check whether the initial items are displayed.
+2. Enter a new item and click Add Item.
+3. Verify that the new item appears in the frontend and `db.json`.
+4. Click Delete beside an item.
+5. Verify that the item disappears from both the frontend and `db.json`.
+6. Refresh the page and check whether the changes remain.
+
+### Step 11: Result
+
+The React CRUD application was successfully created using the Fetch API and JSON Server. Items can be fetched, added and deleted, with changes reflected in both the frontend and backend.
+
+Commands to remember
+
+```
+npm create vite@latest item-manager -- --template react
+cd item-manager
+npm install
+npm install json-server@0.17.4
+npm run server
+npm run dev
+```
